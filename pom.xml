@@ -19,11 +19,15 @@
             <groupId>vpn</groupId>
             <artifactId>vpncheck</artifactId>
             <version>1.0</version>
+            <systemPath>${project.basedir}/lib/VPN_Detection.jar</systemPath>
+            <scope>system</scope>
         </dependency>
         <dependency>
             <groupId>javaquerry</groupId>
             <artifactId>javaquerry</artifactId>
             <version>1.0</version>
+            <systemPath>${project.basedir}/lib/javaQuery 8.2.jar</systemPath>
+            <scope>system</scope>
         </dependency>
         <dependency>
             <groupId>javax</groupId>
